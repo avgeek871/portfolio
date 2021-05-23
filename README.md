@@ -2,6 +2,10 @@ This is a portfolio website project, which will encompass HTML, CSS, JavaScript,
 
 Changelog:
 
+V0.3.2
+About, projects, and skills content added/formatted
+Footer added/formatted
+
 V0.3.1
 Begin JS programming for About section
 Basic JS implementation working, will add transitions/content
