@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <!--Head Info-->
+
+    <head>
+        <title>Contact Me!</title>
+        <link rel="stylesheet" href="resources/style.css">
+    </head>
+
+    <body>
+
+        <!--Header / Nav Bar-->
+
+        <header>
+            <nav>
+                <div class="nav-cont">
+                    <div class="name-box">
+                        <a href="./home.html"><button type="button"><h1>Ben Grutsch</h1></button></a>
+                    </div>
+                    <div class="contact-button">
+                        <a href="./contact.html"><button type="button">Contact Me!</button></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Contact Form-->
+
+        <section class="contact">
+            <div class="contact-cont">
+                <img src="resources/images/turbofan.jpg">
+                <div class="heading">
+                    <h2>Have an idea for a website?</h2>
+                    <h3>Let's make it happen!</h3>
+                </div>
+                <div class="form-box">
+                    <form action="/action_contact.php" onsubmit="return validate()" method="POST">
+                        <div class="name">
+                            <label for="name">First and Last Name: </label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" autocomplete="on" required>
+                        </div>
+                        <div class="email">
+                            <label for="email">Email Address: </label>
+                            <input type="email" id="email" name="email" placeholder="john.doe@domain.com" autocomplete="on" required>
+                        </div>
+                        <div class="desc">
+                            <label for="desc">Tell me about your idea: </label><br>
+                            <textarea id="desc" name="desc"></textarea>
+                        </div>
+                        <div class="sub">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+            <!--Footer-->
+
+        <footer>
+            <p>copyright BGDF 2021</p>
+        </footer>
+
+    </body>
+
+
+</html>
