@@ -2,6 +2,9 @@ This is a portfolio website project, which will encompass HTML, CSS, JavaScript,
 
 Changelog:
 
+V0.4.2
+Add JS validation of form data, **NOT FUNCTIONAL**
+
 V0.4.1
 Build/style Contact page, layout for JS email/validation
 Add "home" link to name heading
