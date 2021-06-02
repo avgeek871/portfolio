@@ -2,6 +2,11 @@ This is a portfolio website project, which will encompass HTML, CSS, JavaScript,
 
 Changelog:
 
+V0.4.3
+Remove contact form and replace with links to social media
+Add icon pack
+Add hover effects to contact links
+
 V0.4.2
 Add JS validation of form data, **NOT FUNCTIONAL**
 
