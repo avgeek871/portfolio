@@ -2,19 +2,19 @@
 /* About Me Functions */
 
 function changeInfoBoxToProjects () {
-    document.getElementById('about-me').style.visibility = "hidden";
-    document.getElementById('skills').style.visibility = "hidden";
-    document.getElementById('projects').style.visibility = "visible";
+    document.getElementById('about-me').style.opacity = "0";
+    document.getElementById('skills').style.opacity = "0";
+    document.getElementById('projects').style.opacity = "1";
 };
 function changeInfoBoxToSkills () {
-    document.getElementById('about-me').style.visibility = "hidden";
-    document.getElementById('projects').style.visibility = "hidden";
-    document.getElementById('skills').style.visibility = "visible";
+    document.getElementById('about-me').style.opacity = "0";
+    document.getElementById('projects').style.opacity = "0";
+    document.getElementById('skills').style.opacity = "1";
 };
 function changeInfoBoxToAbout () {
-    document.getElementById('skills').style.visibility = "hidden";
-    document.getElementById('projects').style.visibility = "hidden";
-    document.getElementById('about-me').style.visibility = "visible";
+    document.getElementById('skills').style.opacity = "0";
+    document.getElementById('projects').style.opacity = "0";
+    document.getElementById('about-me').style.opacity = "1";
 };
 
 /* Event Listeners */

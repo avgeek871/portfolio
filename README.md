@@ -2,6 +2,9 @@ This is a portfolio website project, which will encompass HTML, CSS, JavaScript,
 
 Changelog:
 
+V0.4.4
+Add transition to info box
+
 V0.4.3
 Remove contact form and replace with links to social media
 Add icon pack

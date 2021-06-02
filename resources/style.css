@@ -118,21 +118,24 @@ h1 {
     height: 300px;
 }
 #about-me {
-    visibility: visible;
+    opacity: 1;
     margin: 50px;
     text-align: center;
+    transition: opacity 0.25s;
 }
 #projects {
-    visibility: hidden;
+    opacity: 0;
     margin: 50px;
     line-height: 4;
     text-align: center;
+    transition: opacity 0.25s;
 }
 #skills {
-    visibility: hidden;
+    opacity: 0;
     margin: 50px;
     line-height: 4;
     text-align: center;
+    transition: opacity 0.25s;
 }
 ul {
     list-style: none;
