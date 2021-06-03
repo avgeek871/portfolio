@@ -1,20 +1,39 @@
 
+/* Element Variables */
+
+const amt = document.getElementById('about-me');
+const ami = document.getElementById('about-me-img');
+const st = document.getElementById('skills');
+const si = document.getElementById('skills-img');
+const pt = document.getElementById('projects');
+const pi = document.getElementById('projects-img');
+
+
 /* About Me Functions */
 
 function changeInfoBoxToProjects () {
-    document.getElementById('about-me').style.opacity = "0";
-    document.getElementById('skills').style.opacity = "0";
-    document.getElementById('projects').style.opacity = "1";
+    amt.style.opacity = "0";
+    ami.style.opacity = "0";
+    st.style.opacity = "0";
+    si.style.opacity = "0";
+    pt.style.opacity = "1";
+    pi.style.opacity = "1";
 };
 function changeInfoBoxToSkills () {
-    document.getElementById('about-me').style.opacity = "0";
-    document.getElementById('projects').style.opacity = "0";
-    document.getElementById('skills').style.opacity = "1";
+    amt.style.opacity = "0";
+    ami.style.opacity = "0";
+    pt.style.opacity = "0";
+    pi.style.opacity = "0";
+    st.style.opacity = "1";
+    si.style.opacity = "1";    
 };
 function changeInfoBoxToAbout () {
-    document.getElementById('skills').style.opacity = "0";
-    document.getElementById('projects').style.opacity = "0";
-    document.getElementById('about-me').style.opacity = "1";
+    st.style.opacity = "0";
+    si.style.opacity = "0";
+    pt.style.opacity = "0";
+    pi.style.opacity = "0";
+    amt.style.opacity = "1";
+    ami.style.opacity = "1";
 };
 
 /* Event Listeners */

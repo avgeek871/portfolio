@@ -2,6 +2,10 @@ This is a portfolio website project, which will encompass HTML, CSS, JavaScript,
 
 Changelog:
 
+V0.4.5
+Add changing backsplashes to info box
+Revamp JS to improve performance
+
 V0.4.4
 Add transition to info box
 
