@@ -2,6 +2,9 @@ This is a portfolio website project, which will encompass HTML, CSS, JavaScript,
 
 Changelog:
 
+V0.5.0
+Begin adding responsive design
+
 V0.4.5
 Add changing backsplashes to info box
 Revamp JS to improve performance
