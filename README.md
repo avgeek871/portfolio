@@ -2,6 +2,9 @@ This is a portfolio website project, which will encompass HTML, CSS, JavaScript,
 
 Changelog:
 
+V1.0
+Finalize design, ready for posting
+
 V0.5.0
 Begin adding responsive design
 
